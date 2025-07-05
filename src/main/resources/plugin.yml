@@ -1,0 +1,19 @@
+name: MinecraftStatistics
+version: 0.1
+author: SpreadSheets
+main: minecraftstatistics.Main
+website: https://minersglory.com
+commands:
+    statsync:
+        description: Sync stats of all players currently online
+        permission: minecraftstatistics.sync
+        default: op
+        usage: /statsync
+    debug:
+        description: Command used by developers of the plugin to troubleshoot.
+        permission: minecraftstatistics.debug
+        default: op
+        usage: /debug
+    statistics:
+        description: View your stats or another player's stats.
+        usage: /statistics [player_name]

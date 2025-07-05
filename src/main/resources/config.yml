@@ -1,0 +1,45 @@
+#MySQL Details
+mysql:
+    host: localhost
+    port: 3306
+    database: database
+    username: username
+    password: password
+    table: stats
+
+#Time To Sync Between
+frequency: 600
+
+#Server Name
+servername: default
+
+# A List Of Statistics To Be Tracked
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html
+statistics:
+  - DAMAGE_DEALT
+  - DAMAGE_TAKEN
+  - DEATHS
+  - MOB_KILLS
+  - PLAYER_KILLS
+  - FISH_CAUGHT
+  - ANIMALS_BRED
+  - LEAVE_GAME
+  - JUMP
+  - DROP_COUNT
+  - PLAY_ONE_MINUTE
+  - WALK_ONE_CM
+  - SPRINT_ONE_CM
+  - CROUCH_ONE_CM
+  - AVIATE_ONE_CM
+  - SWIM_ONE_CM
+  - FALL_ONE_CM
+  - CLIMB_ONE_CM
+  - MINECART_ONE_CM
+  - BOAT_ONE_CM
+  - PIG_ONE_CM
+  - HORSE_ONE_CM
+  - STRIDER_ONE_CM
+  - RAID_TRIGGER
+  - RAID_WIN
+  - TARGET_HIT
+  - SLEEP_IN_BED
