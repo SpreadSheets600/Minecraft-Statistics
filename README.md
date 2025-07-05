@@ -13,11 +13,17 @@ Player Statistics is a Minecraft server plugin that tracks and manages player st
 
 ---
 
+## 📷 Screenshots 
+
+![alt text](.github/image.png)
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Installation
 
-1. Download the latest compiled `.jar` file from the [Releases](#) section.
+1. Download the latest compiled `.jar` file from the [Releases](https://github.com/SpreadSheets600/Minecraft-Statistics/releases) section.
 2. Place the `.jar` file into your server's `plugins` directory.
 3. Restart your Minecraft server.
 
